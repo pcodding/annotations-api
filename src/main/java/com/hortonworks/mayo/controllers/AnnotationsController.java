@@ -20,7 +20,7 @@ public class AnnotationsController {
 
 	@RequestMapping(value = "{title}", method = RequestMethod.GET)
 	public @ResponseBody
-	Annotation getShopInJSON(@PathVariable String title) {
+	Annotation getAnnotationInJSON(@PathVariable String title) {
 		logger.info("Processing request for title: " + title);
 		Annotation annotation = new Annotation();
 		try {
