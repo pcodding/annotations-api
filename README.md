@@ -1,4 +1,4 @@
-annotations-api
+Annotations API
 ===============
 
-cTAKES annotation retrieval API
+The cTAKES annotation retrieval API uses Hive JDBC to retrieve annotations from Hive.
